@@ -1,3 +1,5 @@
+
+
 public class PiTri {
 
     public static void main(String[] args) {
@@ -38,7 +40,7 @@ public class PiTri {
     }
 
     private static boolean checkTriple(int a, int b, int c) {
-        return a * a + b * b == c * c;
+        return Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2);
     }
 
 }

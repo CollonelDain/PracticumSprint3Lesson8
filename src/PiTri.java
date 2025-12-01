@@ -32,6 +32,7 @@ public class PiTri {
                 System.out.println(a + ", "+ b + ", "+ c + " — это настоящая пифагорова тройка!");
             } else {
                 System.out.println("Эти числа не являются пифагоровой тройкой");
+                System.out.println("Поищите еще :(");
             }
         }
     }

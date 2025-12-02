@@ -31,7 +31,7 @@ public class PiTri {
             int a = Integer.parseInt(args[0]);
             int b = Integer.parseInt(args[1]);
             int c = Integer.parseInt(args[2]);
-            int d = 123;
+            int d = 0;
             if(checkTriple(a, b, c)){
                 System.out.println(a + ", "+ b + ", "+ c + " — это настоящая пифагорова тройка!");
             } else {
